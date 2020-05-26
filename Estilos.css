@@ -1,0 +1,29 @@
+*{
+    margin: 10px;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.navegacion{
+    width: 700px;
+    margin: 25px auto;
+    background: rgb(221, 127, 5);
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu > li > a{
+display: block;
+padding: 15px 20px;
+color: #006e8a;
+font-family: 'Open sans';
+text-decoration: none;
+}
+.menu li a:hover{
+color: #CE7D35;
+transition: all .3s;
+}
